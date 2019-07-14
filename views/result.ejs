@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+<div class="col-md-12">
+    <h1 class="text-center"><%=title %></h1>
+</div>
+      </div>
+        <div class="row">
+         
+            <% result.forEach((el)=>{ %>
+            <div class="col-md-4 mb-2">
+              <div class="card text-center bg-light">
+                  <div class="card-head">
+                      <img src="<%= el.p_img_small %>" alt="">
+                  </div>
+                <div class="card-body">
+                   
+                    <%= el.p_title %>
+                    
+                </div>
+                <b>Rs:<%= el.p_retail_price %></b>
+              </div>
+            
+
+            </div>
+            <% }) %>
+        </div>
+    
+    </div>
+   
+   
+  </body>
+  </body>
+</html>
