@@ -18,5 +18,17 @@
     "mongoose": "^5.6.3",
     "morgan": "~1.9.1",
     "nodemon": "^1.19.1"
-  }
+  },
+  "description": "By using the api , the web app can search any product we want that is available in flipkart \r ### Demonstration",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaioshin20/flipkart-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaioshin20/flipkart-api/issues"
+  },
+  "homepage": "https://github.com/kaioshin20/flipkart-api#readme"
 }
